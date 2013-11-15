@@ -1,0 +1,15 @@
+#include <Morse.h>
+Morse morse(13);
+ 
+void setup()
+{
+}
+ 
+void loop()
+{
+morse.punto();morse.punto();morse.punto();
+morse.linea();morse.linea();morse.linea();
+morse.punto();morse.punto();morse.punto();
+delay(3000);
+}
+
